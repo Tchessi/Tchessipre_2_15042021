@@ -141,6 +141,12 @@ input{
   height: 100%;
   border: none;
 }
+.bouton_text:hover {
+  box-shadow: 1px 1px 5px gray;
+}
+.btn__button--icon {
+  display: none;
+}
 /* Barre de filtres */
 .options {
   height: 11%;
@@ -645,7 +651,7 @@ nav a {
 }
 .nav__item--hebergements {
   grid-area: 3/2;
-  justify-self: end;
+  justify-self: start;
 }
 .nav__item--activites {
   grid-area: 3/5;
@@ -704,8 +710,23 @@ footer {
 .bouton_icon i {
   margin: 12px 0 12px 12px;
 }
+.btn__button--icon {
+  display: inline;
+  color: white;
+  background-color: #0065fc;
+  border-radius: 0 15px 15px 0;
+  height: 100%;
+  width: 65px;
+  border: none;
 }
-@media all and (max-width: 376px) {
+.bouton_text {
+  display: none;
+}
+.bouton_text:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+}
+@media all and (max-width: 769px) {
 .banniere_filtre {
   width: 90%;
   height: 200px;
@@ -753,4 +774,10 @@ padding-left: 100px;
   content: "\f3c5";
   margin: 12px 0px 0px 12px;
 }
+h1 {
+  font-size: 1.2em;}
+h3 {
+  font-size: 1.5em;
 }
+}
+
