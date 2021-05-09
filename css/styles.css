@@ -32,7 +32,7 @@
     gap: 30px;
     align-items: center;
 }
-.nav_item {
+.nav__item {
   margin-top: 15px;
 }
 .nav__item--hebergements {
@@ -47,6 +47,9 @@
   grid-area: 1 / 6;
   justify-self: end;
   font-weight: bold;
+}
+nav {
+  padding-top: 10px;
 }
   nav a{
     font-size: 1.2em;
