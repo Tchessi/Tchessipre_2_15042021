@@ -100,7 +100,9 @@ form{
   border-radius: 15px 0 0 15px;
   height: 100%;
   width: 55px;
-  padding-right: 10px;
+  height: 36px;
+  border: 2px solid white;
+  padding-right: 5px;
   box-shadow: 3px 3px 3px grey;
 }
 .bouton_icon i {
@@ -687,6 +689,7 @@ footer {
 nav {
   border-bottom: #d9d9d9 3px solid;
   margin-left: 10px;
+  padding-bottom: 10px;
 }
 nav a:hover{
   text-decoration:none; 
@@ -699,6 +702,7 @@ nav a:hover{
   margin-left: -30%;
   padding-right: 30%;
   margin-right: -30%;
+  padding-bottom: 21px;
 }
 
 .nav__item--hebergements:hover{
@@ -784,12 +788,12 @@ nav a:hover{
 }
 
 .nav__item--hebergements:hover{
-  padding-left: 35%;
-  margin-left: -35%;
+  padding-left: 100%;
+  margin-left: -100%;
 }
 .nav__item--activites:hover{
-  padding-right: 35%;
-  margin-right: -35%;
+  padding-right: 105%;
+  margin-right: -100%;
 }
 .nav__item {
   margin-top: 15px;
