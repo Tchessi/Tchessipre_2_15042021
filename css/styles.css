@@ -844,7 +844,7 @@ nav a:hover{
 .filters {
   display: flex;
   flex-wrap: wrap;
-  width: 105%;
+  width: 110%;
   justify-content: center;
 } 
 .bouton {
@@ -854,7 +854,7 @@ nav a:hover{
   border: 2px solid #F2F2F2;
   border-radius: 15px;
   justify-content: space-between;
-  margin-left: 15%
+  margin:0px 120px 0px 120px;
 } 
 .bouton_icon i {
     margin: 12px 0 12 12px;
