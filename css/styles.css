@@ -150,25 +150,6 @@ input{
   font-size: 1em;
   box-shadow: 2px 2px 5px grey;
 }
-imput[type="text" i]{
-  padding: 1px 2px;
-}
-input{
-  text-rendering: auto;
-  color: -internal-light-dark(black, white);
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  appearance: auto;
-  background-color: -internal-light-dark(rgb(255, 255, 255),rgb(59, 59, 59));
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  margin: 0em;
-}
   /* Barre de filtres */
 .options {
   height: 11%;
@@ -248,10 +229,6 @@ p {
 font-size: 0.9em;
 line-height: 1em;
 display: block;
-margin-block-start: 1em;
-margin-block-end: 1em;
-margin-inline-start: 5px;
-margin-inline-end: 0px;
 }
 .position i {
   color: #0065FC;
@@ -313,10 +290,6 @@ main {
 }
 figure {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
 }
 a {
   text-decoration: none;
@@ -346,10 +319,6 @@ h3 {
   line-height: 1em;
   display: block;
   font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 5px;
-  margin-inline-end: 0px;
   font-weight: bold;
 }
 em{
@@ -884,9 +853,6 @@ nav a:hover{
   justify-content: space-between;
   margin:0px 120px 0px 120px;
 } 
-.bouton_icon i {
-    margin: 12px 0 12 12px;
-}
 input {
 width: 370px;
 }
