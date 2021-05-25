@@ -113,8 +113,8 @@ form{
   background-color: #0065FC;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  height: 118%;
-  border: 1px solid;
+  height: 117%;
+  border: 2px solid;
   box-shadow: 2px 2px 5px grey;
 }
 .bouton_text:hover {
