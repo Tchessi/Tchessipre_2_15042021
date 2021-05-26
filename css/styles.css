@@ -873,9 +873,16 @@ footer {
 /* VERSION MOBILE */
 @media all and (max-width: 376px) {
 .filters { 
-  width: 100%;
-  margin-left: 25px;
-  margin-right: 25px;
+  width: 70%;
+  display: flex;
+  justify-content: start;
+}
+.banniere_filtre {
+  width: 90%;
+  height: 255px;
+}
+.filter {
+  margin-left: 10px;
 }
 .corps{
   margin-left: -10px;
@@ -909,5 +916,12 @@ footer {
   padding-left: 30px;
   margin-top: 30px;
   flex-direction: column;
+}
+.corps {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 }
