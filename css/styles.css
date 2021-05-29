@@ -910,7 +910,7 @@ footer {
 }
 .banniere_filtre {
   width: 90%;
-  height: 255px;
+  height: 300px;
 }
 .filter {
   margin-left: 10px;
@@ -918,7 +918,7 @@ footer {
 .bouton {
   display: flex;
   height: 50px;
-  width: 110%;
+  width: 108%;
   border: 2px solid #F2F2F2;
   border-radius: 15px;
   justify-content: space-between;
@@ -927,12 +927,46 @@ footer {
 .master {
   border-radius: 15px;
   background-color: #F2F2F2;
+  padding: 0px 10px 10px 10px;
+  margin: 0px;
+}
+.card {
+  width: 90%;
+}
+.corps > main {
+  background-color: white;
 }
 h1 {
   font-size: 1.5em;
 }
 p {
-  font-size: 1em;
+  font-size: 1.3em;
+}
+h3 {
+  font-size: 1.6em;
+  padding-left: 10px;
+}
+em {
+  font-size: 1.3em;
+}
+.nav__item--activites:hover {
+  padding-right: 150%;
+}
+.true i {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  padding-left: 3px;
+  margin: 2px;
+}
+.fa-map-marker-alt:before {
+  content: "\f3c5";
+  font-size: 1.8em;
+  padding: 1px;
+}
+.section__title h3 {
+  padding-left: 10px;
+  line-height: 0.5em;
+  font-size: 1.8em;
 }
 ul.nav {
   margin-left: 0px;
