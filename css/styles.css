@@ -813,8 +813,7 @@ nav a:hover{
   border-radius: 0 15px 15px 0;
   height: 116%;
   width: 65px;
-  border: 1px solid;
-  box-shadow: 2px 2px 5px grey;
+  border: 1px solid #0065fc;
 }
 .bouton_text {
   display: none;
@@ -938,6 +937,10 @@ footer {
 }
 h1 {
   font-size: 1.5em;
+}
+h2 { 
+  font-size: 1.8em;
+    font-weight: bold;
 }
 p {
   font-size: 1.3em;
