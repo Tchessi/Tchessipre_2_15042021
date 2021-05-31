@@ -139,12 +139,12 @@ form{
   padding: 0px 5px 0px 2px;
 }
 input{
-  border-top: 1px solid #F2F2F2;
+  border-top: none;
   border-right: none;
   border-bottom: 1px solid #F2F2F2;
   border-left: none;
   width: 310px;
-  height: 106%;
+  height: 110%;
   padding-left: 10px;
   font-weight: bold;
   font-size: 1em;
@@ -349,7 +349,7 @@ em{
 /* AVIS ETOILES */
 .true i {
   color: #0065FC;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 .fa, .fas {
   font-weight: 900;
@@ -531,6 +531,7 @@ footer {
   margin-top: 30px;
 }
 .footer_title {
+  margin: auto;
   font-size: 1em;
   margin-left: 40px;
 }
@@ -557,7 +558,6 @@ li {
  
 @media all and (max-width: 1255px) {
   #bloc_page {
-    padding: 0 30px 10px 30px;
     margin: auto;
     display: grid;
     flex-direction: column;
@@ -598,7 +598,6 @@ h3 {
 /* VERSION DESKTOP */
 @media all and (max-width: 1079px) {
   #bloc_page {
-    padding: 0 5px 5px 5px;
     margin: 0px;
     display: grid;
     flex-direction: column;
@@ -722,11 +721,11 @@ h1 {
   margin-left: 10px;
 }
 h3 {
-  font-size: 1.80em;
+  font-size: 1.8em;
 }
 p {
 font-size: 1.1em;
-margin-left: 3px;
+margin-left: 4px;
 }
 footer {
   height: 110%;
@@ -857,7 +856,7 @@ nav a:hover{
   border: 2px solid #F2F2F2;
   border-radius: 15px;
   justify-content: space-between;
-  margin:0px 120px 0px 120px;
+  margin:0px 0px 0px 125px;
 } 
 input {
 width: 370px;
@@ -937,7 +936,7 @@ input {
   margin: 0px;
 }
 .card {
-  width: 90%;
+  width: 95%;
 }
 .corps > main {
   background-color: white;
@@ -958,10 +957,13 @@ p {
 }
 h3 {
   font-size: 1.6em;
-  padding-left: 10px;
+  padding-left: 3px;
 }
 em {
   font-size: 1.3em;
+}
+a.plus {
+  font-weight: bold;
 }
 .nav__item--activites:hover {
   padding-right: 150%;
@@ -986,12 +988,6 @@ aside.master span i {
   padding-left: 10px;
   line-height: 0.5em;
   font-size: 1.8em;
-}
-footer {
-  display: flex;
-  padding-top: 30px;
-  margin-top: 30px;
-  flex-direction: column;
 }
 }
  
