@@ -859,11 +859,11 @@ nav a:hover{
 .bouton {
   display: flex;
   height: 40px;
-  width: 500px;
+  width: 50%;
   border: 2px solid #F2F2F2;
   border-radius: 15px;
   justify-content: space-between;
-  margin:0px 0px 0px 125px;
+  margin: 20px 0px 0px 20px;
 } 
 input {
 width: 370px;
@@ -904,11 +904,14 @@ footer {
   }
   
 .filters { 
-  width: 58%;
-  margin: 0px;
+  width: 70%;
+  margin: 10px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: start;
   padding-top: 20px;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 ul.nav {
   padding-left: 0px;
@@ -922,6 +925,9 @@ ul.nav {
 }
 .filter {
   margin-left: 10px;
+}
+.filtre--tilte {
+  width: 100%;
 }
 input {
   font-size: 1.5em;
@@ -953,7 +959,7 @@ h1 {
   font-size: 1.5em;
 }
 h2 { 
-  font-size: 1.8em;
+  font-size: 1.5em;
     font-weight: bold;
 }
 .title > h2 {
@@ -962,6 +968,9 @@ h2 {
 p {
   font-size: 1.5em;
   line-height: 25px;
+}
+.ilg {
+  padding-left: 10px;
 }
 h3 {
   font-size: 1.6em;
