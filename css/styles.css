@@ -31,7 +31,6 @@ body {
   width: 100%;
   display: grid;
   margin-left: -40px;
-  gap: 30px;
   align-items: center;
 }
 .nav__item {
@@ -87,10 +86,11 @@ body {
 .bouton{
   display: flex;
   height: 40px;
-  width: 300px;
+  width: 350px;
   border: 1px solid #F2F2F2;
   border-radius: 15px;
   border-right: none;
+  margin-top: 20px;
 }
 form{
   margin-top: 0em;
@@ -150,14 +150,12 @@ input{
   font-size: 1em;
 }
   /* FILTRES */
-.options {
-  height: 11%;
-}
 .filters{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 h2 {
   font-size: 1.2em;
@@ -234,7 +232,7 @@ a:-webkit-any-link{
   color: #0065FC;
 }
 aside.master span i {
-  line-height: 60px;
+  line-height: 80px;
 }
 p {
 font-size: 0.9em;
@@ -295,16 +293,15 @@ main {
 }
 .card {
   border: 0px black solid; 
-  box-shadow: 1px 1px 5px 2px #80808070;
+  box-shadow: 1px 1px 5px 2px #8080809a;
   border-radius: 15px;
   background-color: white;
   margin: auto;
-  width: 100%; 
 }
 .card:hover {
   cursor: pointer;
   transform: scale(1.03);
-  transition: ease 0.4s;
+  transition: ease 0.2s;
 }
 figure {
   display: block;
@@ -349,7 +346,7 @@ em{
 /* AVIS ETOILES */
 .true i {
   color: #0065FC;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 .fa, .fas {
   font-weight: 900;
@@ -381,20 +378,22 @@ em{
   border-radius: 15px;
   background-color: #F2F2F2;
   padding: 10px 10px 10px 10px;
-  margin: 0;
+  margin: 20px 0px 0px 0px;
 }
 main {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   margin-right: 10px;
 }
 aside {
-  width: 25%;
+  width: 30%;
 }
 .corps .title, .more {
-  margin-left: 30px;
   margin-top: 20px;
+  padding-left: 20px;
+  font-size: 1.3em;
+  font-weight: bolder;
 }
 .aside__title {
   display: flex;
@@ -490,13 +489,14 @@ section {
 .card--main, .card--section {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .card--frioul {
   grid-area: 2 / 2 / 4 / 3;
-  margin-top: 46px;
+  margin-top: 20px;
 }
 .card--frioul img {
-  height: 130px;
+  height: 155px;
 }
 .card--calanques {
   grid-area: 1 / 3 / 3 / 4;
@@ -519,7 +519,7 @@ section {
   margin-top: 20px;
 }
 .card--longchamp img {
-  height: 156px;
+  height: 155px;
 }
 /* PIED DE PAGE */
 footer {
@@ -647,6 +647,13 @@ h3 {
     width: 100%;
     height: 270px;
   }
+  .card--longchamp {
+    margin-top: 0px;
+  }
+  .card--frioul {
+    margin-top: 0px;
+  }
+  
   .section__title {
     margin-left: 10px;
     height: 50px;
@@ -728,7 +735,7 @@ font-size: 1.1em;
 margin-left: 4px;
 }
 footer {
-  height: 110%;
+  height: 90%;
   display: flex;
   padding-top: 30px;
   margin-top: 30px;
@@ -778,7 +785,7 @@ nav a:hover{
 }
 .nav__item--activites:hover, .nav__item--hebergements:hover{
   border-top: none;
-  border-bottom: #0065fc solid 3px;
+  border-bottom: #0065fc solid 4px;
 }
  
 .nav__item--hebergements:hover{
@@ -805,7 +812,7 @@ nav a:hover{
   background-color: #0065fc;
   border-radius: 15px;
   height: 116%;
-  width: 65px;
+  width: 60px;
   border: 1px solid #0065fc;
 }
 .bouton_text {
@@ -893,6 +900,7 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     gap: 20px;
+    margin: auto;
   }
   
 .filters { 
@@ -930,9 +938,9 @@ input {
   margin: auto;
 }
 .master {
-  border-radius: 15px;
+  border-radius: 0px;
   background-color: #F2F2F2;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 0px 20px 0px;
   margin: 0px;
 }
 .card {
@@ -963,7 +971,9 @@ em {
   font-size: 1.3em;
 }
 a.plus {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding-left: 20px;
 }
 .nav__item--activites:hover {
   padding-right: 150%;
@@ -982,12 +992,18 @@ a.plus {
   font-size: 1.5em;
 }
 aside.master span i {
-  line-height: 125px;
+  line-height: 155px;
 }
 .section__title h3 {
   padding-left: 10px;
   line-height: 0.5em;
   font-size: 1.8em;
+}
+.card--longchamp {
+  margin-top: 0px;
+}
+.card--frioul {
+  margin-top: 0px;
 }
 }
  
