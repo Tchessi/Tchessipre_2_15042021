@@ -882,6 +882,9 @@ width: 370px;
   content: "\f3c5";
   margin: 12px 0px 0px 0px;
 }
+aside.master span i {
+  line-height: 240px;
+}
 h1 {
   font-size: 1.2em;}
 h3 {
