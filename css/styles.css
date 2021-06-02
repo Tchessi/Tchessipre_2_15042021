@@ -166,7 +166,7 @@ h2 {
   margin-left: 15px;
   height: 40px;
   margin-top: 10px;
-  padding: 12px 18px 0 0;
+  padding: 13px 18px 0 0;
   font-size: 1em;
   font-weight: bold;
   border: #dbdada 2px solid;
@@ -196,7 +196,7 @@ a{
   height: 30px;
   display: block;
   float: left;
-  margin-top: -12px;
+  margin-top: -14px;
   text-align: center
 }
 .icon--bill i{
@@ -301,6 +301,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+.grid.main__grid .card {
+  height: 100%;
+}
 .card {
   border: 0px black solid; 
   box-shadow: 1px 1px 5px 2px #8080809a;
@@ -340,7 +343,7 @@ img {
   padding-top: 0;
 }
 h3 {
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1em;
   display: block;
   font-size: 1.17em;
@@ -356,7 +359,7 @@ em{
 /* AVIS ETOILES */
 .true i {
   color: #0065FC;
-  font-size: 0.7em;
+
 }
 .fa, .fas {
   font-weight: 900;
@@ -566,7 +569,7 @@ li {
  
 /* LES MEDIAS QUIERIES */
  
-@media all and (max-width: 1255px) {
+@media screen and (max-width: 1255px) {
   #bloc_page {
     margin: auto;
     display: grid;
@@ -606,7 +609,7 @@ h3 {
 }
 }
 /* VERSION DESKTOP */
-@media all and (max-width: 1079px) {
+@media screen and (max-width: 1079px) {
   #bloc_page {
     margin: 0px;
     display: grid;
@@ -621,7 +624,7 @@ h3 {
   }
   .master {
     border-radius: 15px;
-    background-color: #e48b8b;
+    background-color: #F2F2F2;
     padding: 10px 10px 10px 10px;
     margin: 5px;
   } 
@@ -739,11 +742,10 @@ h1 {
   margin-left: 10px;
 }
 h3 {
-  font-size: 1.8em;
+  font-size: 1em;
 }
 p {
 font-size: 1.1em;
-margin-left: 10px;
 }
 footer {
   height: 90%;
@@ -756,7 +758,7 @@ footer {
   margin: 12px 0 12px 12px;
 }
 }
-@media all and (max-width: 901px) {
+@media screen and (max-width: 901px) {
   #bloc_page {
     margin: 0px;
     display: grid;
@@ -839,7 +841,7 @@ nav a:hover{
 }
 }
 /* VERSION TABLETTE */
-@media all and (max-width: 769px) {
+@media screen and (max-width: 769px) {
 .banniere_filtre {
   width: 90%;
   height: 220px;
@@ -854,7 +856,7 @@ nav a:hover{
 .filter {
   margin-left: 50px;
   margin-top: 10px;
-  padding: 10px 18px 0 0;
+  padding: 15px 18px 0 0;
   font-size: 1em;
   font-weight: bold;
   border-left: none;
@@ -885,7 +887,7 @@ width: 370px;
 h1 {
   font-size: 1.2em;}
 h3 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .master { 
   margin-top: 40px;
@@ -901,8 +903,13 @@ footer {
   height: 90%;
 }
 }
+@media screen and (max-width: 580px) {
+  body {
+    width: 150%;
+  }
+}
 /* VERSION MOBILE */
-@media all and (max-width: 376px) {
+@media screen and (max-width: 376px) {
   body {
     margin: 0px;
     display: grid;
@@ -978,15 +985,14 @@ h2 {
   padding-left: 20px;
 }
 p {
-  font-size: 1.5em;
+  font-size: 0.9em;
   line-height: 25px;
 }
 .ilg {
   padding-left: 10px;
 }
 h3 {
-  font-size: 1.6em;
-  padding-left: 3px;
+  font-size: 1em;
 }
 em {
   font-size: 1.3em;
