@@ -242,7 +242,7 @@ a:-webkit-any-link{
   color: #0065FC;
 }
 aside.master span i {
-  line-height: 80px;
+  line-height: 110px;
 }
 p {
 font-size: 0.9em;
@@ -385,6 +385,9 @@ em{
 .card__notation:hover .fa-star::before {
   content: "\f005";
   color: #0065FC;
+}
+aside.master span i {
+  line-height: 80px;
 }
 /* LES PLUS POPULAIRES */
 .master {
@@ -632,6 +635,9 @@ h3 {
     width: 100%;
     padding-bottom: 10px;
   }
+  aside.master span i {
+    line-height: 250px;
+}
   .card--aside img {
     width: 35%;
     height: 250px;
@@ -742,7 +748,7 @@ h1 {
   margin-left: 10px;
 }
 h3 {
-  font-size: 1em;
+  font-size: 1.17em;
 }
 p {
 font-size: 1.1em;
@@ -839,6 +845,11 @@ nav a:hover{
   margin: 10px;
   gap: 30px;
 }
+.section__title h3 {
+  padding-left: 10px;
+  line-height: 0.8em;
+  font-size: 1.4em;
+}
 }
 /* VERSION TABLETTE */
 @media screen and (max-width: 769px) {
@@ -886,9 +897,6 @@ width: 370px;
 }
 h1 {
   font-size: 1.2em;}
-h3 {
-  font-size: 1em;
-}
 .master { 
   margin-top: 40px;
 }
@@ -907,6 +915,16 @@ footer {
   body {
     width: 150%;
   }
+  aside.master span i {
+    line-height: 200px;
+    font-size: 1.3em;
+}
+i.fas.fa-star.blue {
+  font-size: 1.3em;
+}
+i.fas.fa-star {
+  font-size: 1.3em;
+}
 }
 /* VERSION MOBILE */
 @media screen and (max-width: 376px) {
@@ -968,6 +986,13 @@ input {
   padding: 0px 0px 20px 0px;
   margin: 0px;
 }
+aside.master span i {
+  line-height: 200px;
+  font-size: 1.3em;
+}
+i.fas.fa-star.blue {
+font-size: 1.3em;
+}
 .card {
   width: 95%;
 }
@@ -1019,7 +1044,7 @@ a.plus {
   font-size: 1.5em;
 }
 aside.master span i {
-  line-height: 155px;
+  line-height: 250px;
 }
 .section__title h3 {
   padding-left: 10px;
